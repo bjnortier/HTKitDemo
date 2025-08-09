@@ -1,0 +1,15 @@
+{
+  "originHash" : "743011fa49995bb835516f77bbe4bcfcc1eabe8f5bef1b064ca45758b4f09db0",
+  "pins" : [
+    {
+      "identity" : "htkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bjnortier/HTKit",
+      "state" : {
+        "revision" : "f969d2377267c73fdc9c765a5d2fda19453aa8af",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

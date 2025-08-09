@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1750FA232E44CBE300D310C9 /* HTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1750FA222E44CBE300D310C9 /* HTKit */; };
 		1750FAA32E474DB000D310C9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1750FAA22E474DB000D310C9 /* LICENSE */; };
 		1750FAA52E474DC100D310C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1750FAA42E474DC100D310C9 /* README.md */; };
+		17B20C632E4751FC00CFE52A /* HTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17B20C622E4751FC00CFE52A /* HTKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1750FA232E44CBE300D310C9 /* HTKit in Frameworks */,
+				17B20C632E4751FC00CFE52A /* HTKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 			);
 			name = HTKitDemo;
 			packageProductDependencies = (
-				1750FA222E44CBE300D310C9 /* HTKit */,
+				17B20C622E4751FC00CFE52A /* HTKit */,
 			);
 			productName = SwishDemo;
 			productReference = 1700E4FB2DE4F442006947DD /* HTKitDemo.app */;
@@ -229,7 +229,7 @@
 			mainGroup = 1700E4F22DE4F442006947DD;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				1750F9F72E44CBB600D310C9 /* XCLocalSwiftPackageReference "../HTKit" */,
+				17B20C612E4751F100CFE52A /* XCRemoteSwiftPackageReference "HTKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1700E4FC2DE4F442006947DD /* Products */;
@@ -646,17 +646,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		1750F9F72E44CBB600D310C9 /* XCLocalSwiftPackageReference "../HTKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../HTKit;
+/* Begin XCRemoteSwiftPackageReference section */
+		17B20C612E4751F100CFE52A /* XCRemoteSwiftPackageReference "HTKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bjnortier/HTKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1750FA222E44CBE300D310C9 /* HTKit */ = {
+		17B20C622E4751FC00CFE52A /* HTKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1750F9F72E44CBB600D310C9 /* XCLocalSwiftPackageReference "../HTKit" */;
+			package = 17B20C612E4751F100CFE52A /* XCRemoteSwiftPackageReference "HTKit" */;
 			productName = HTKit;
 		};
 /* End XCSwiftPackageProductDependency section */
